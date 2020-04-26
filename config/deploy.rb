@@ -2,7 +2,7 @@ lock '3.6.0'
 
 set :application, 'e-adappter'
 
-set :repo_url, 'https:https://github.com/nzerobe/aws2.git'
+set :repo_url, 'https://github.com/nzerobe/aws2.git'
 
 set :branch, ENV['BRANCH'] || 'master'
 # Specify the deploy destination directory
